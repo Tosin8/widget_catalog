@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widget_catalog/animation&motion/animated_position.dart';
+
+import 'animation&motion/aninmated_size.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const Animated_Positioning(),
+      home: const Animated_Sizing(),
     );
   }
 }

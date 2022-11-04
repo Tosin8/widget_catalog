@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'animation&motion/animated_opacity.dart';
+import 'package:widget_catalog/animation&motion/animated_position.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const Animated_Opacity(),
+      home: const Animated_Positioning(),
     );
   }
 }

@@ -27,21 +27,23 @@ class _animated_builderState extends State<animated_builder>
 
   @override
   Widget build(BuildContext context) {
-    return AnimatedBuilder(
-      animation: _controller,
-      child: Container(
-          width: 200.0,
-          height: 200.0,
-          color: Colors.green,
-          child: const Center(
-            child: Text('Whee!'),
-          )),
-      builder: (context, child) {
-        return Transform.rotate(
-          angle: _controller.value * 2.0 * math.pi,
-          child: child,
-        );
-      },
+    return Scaffold(
+      body: AnimatedBuilder(
+        animation: _controller,
+        child: Container(
+            width: 200.0,
+            height: 200.0,
+            color: Colors.green,
+            child: const Center(
+              child: Text('Whee!'),
+            )),
+        builder: (context, child) {
+          return Transform.rotate(
+            angle: _controller.value * 2.0 * math.pi,
+            child: child,
+          );
+        },
+      ),
     );
   }
 }

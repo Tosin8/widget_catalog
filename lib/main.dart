@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'animation&motion/animated_builder.dart';
+import 'package:widget_catalog/animation&motion/animated_crossfade.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const animated_builder(),
+      home: const animated_crossfading(),
     );
   }
 }

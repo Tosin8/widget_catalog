@@ -16,11 +16,11 @@ class _Animated_AlignState extends State<Animated_Align> {
             width: 250,
             height: 250.0,
             color: Colors.red,
-            child: AlimatedAlign(
+            child: AnimatedAlign(
               alignment: selected ? Alignment.topRight : Alignment.centerLeft,
-              duration: Duration(seconds: 2),
-              curve: Curves.bounceInout,
-              child: FlutterLogo(size: 20),
+              duration: const Duration(seconds: 2),
+              curve: Curves.fastOutSlowIn,
+              child: const FlutterLogo(size: 50),
             )));
   }
 }

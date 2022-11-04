@@ -5,3 +5,7 @@
 
 
 // also study animatedList. 
+
+// // Constructors
+// AnimatedModalBarrier({Key? key, required Animation<Color?> color, bool dismissible = true, String? semanticsLabel, bool? barrierSemanticsDismissible, VoidCallback? onDismiss})
+// Creates a widget that blocks user interaction.

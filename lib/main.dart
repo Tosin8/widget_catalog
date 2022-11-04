@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'animation&motion/animated_container.dart';
+import 'animation&motion/animated_builder.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const animated_container(),
+      home: const animated_builder(),
     );
   }
 }

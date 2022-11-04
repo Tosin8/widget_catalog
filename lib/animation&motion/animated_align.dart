@@ -8,8 +8,19 @@ class Animated_Align extends StatefulWidget {
 }
 
 class _Animated_AlignState extends State<Animated_Align> {
+  bool selected = false;
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Center(
+        child: Container(
+            width: 250,
+            height: 250.0,
+            color: Colors.red,
+            child: AlimatedAlign(
+              alignment: selected ? Alignment.topRight : Alignment.centerLeft,
+              duration: Duration(seconds: 2),
+              curve: Curves.bounceInout,
+              child: FlutterLogo(size: 20),
+            )));
   }
 }

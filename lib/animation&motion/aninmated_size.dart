@@ -20,8 +20,8 @@ class _Animated_SizingState extends State<Animated_Sizing> {
       },
       child: Container(
         color: Colors.amberAccent,
-        child: const AnimatedSize(
-          duration: Duration(seconds: 1),
+        child: AnimatedSize(
+          duration: const Duration(seconds: 1),
           curve: Curves.easeIn,
           child: FlutterLogo(size: _size),
         ),

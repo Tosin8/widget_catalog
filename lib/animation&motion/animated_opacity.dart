@@ -26,6 +26,7 @@ class _Animated_OpacityState extends State<Animated_Opacity> {
           duration: const Duration(seconds: 3),
           child: const FlutterLogo(size: 30),
         ),
+        const SizedBox(height: 3),
         ElevatedButton(
             onPressed: _changeOpacity, child: const Text('Fade Logo')),
       ],

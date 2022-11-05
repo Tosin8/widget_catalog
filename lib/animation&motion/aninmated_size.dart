@@ -9,13 +9,14 @@ class Animated_Sizing extends StatefulWidget {
 
 class _Animated_SizingState extends State<Animated_Sizing> {
   bool _large = false;
-  final double _size = 50.0;
+  double _size = 50.0;
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
         setState(() {
           _large = !_large;
+          _size = _large ? 250.0 : 100.0;
         });
       },
       child: Container(

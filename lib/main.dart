@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'text/text.dart';
+import 'package:widget_catalog/text/richtext.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const TextWidget(),
+      home: const RichText_Widget(),
     );
   }
 }

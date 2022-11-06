@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'animation&motion/aninmated_size.dart';
+import 'text/text.dart';
 
 void main() {
   runApp(const MyApp());

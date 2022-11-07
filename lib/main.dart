@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widget_catalog/scrollling/gridView.dart';
+
+import 'scrollling/draggable_sheet.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const ListTileSelectExample(),
+      home: const DragScroll(),
     );
   }
 }

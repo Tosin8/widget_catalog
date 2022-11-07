@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'scrollling/custom_scroll.dart';
+import 'package:widget_catalog/scrollling/gridView.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const Custom_ScrollWidg(),
+      home: const ListTileSelectExample(),
     );
   }
 }

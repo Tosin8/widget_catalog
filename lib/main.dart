@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'stying/padding.dart';
+import 'scrollling/custom_scroll.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const Padding_Widget(),
+      home: const Custom_ScrollWidg(),
     );
   }
 }

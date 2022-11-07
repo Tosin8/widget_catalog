@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widget_catalog/text/richtext.dart';
+
+import 'stying/padding.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const RichText_Widget(),
+      home: const Padding_Widget(),
     );
   }
 }

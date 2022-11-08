@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'scrollling/listview_widget.dart';
+import 'package:widget_catalog/scrollling/nestedscroll_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const ListTileSelectExample(),
+      home: const MyStatelessWidget(),
     );
   }
 }

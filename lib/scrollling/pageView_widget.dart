@@ -4,14 +4,14 @@
 
 import 'package:flutter/material.dart';
 
-class MyStatelessWidget extends StatefulWidget {
-  const MyStatelessWidget({super.key});
+class PageView_Widget extends StatefulWidget {
+  const PageView_Widget({super.key});
 
   @override
-  State<MyStatelessWidget> createState() => _MyStatelessWidgetState();
+  State<PageView_Widget> createState() => _PageView_WidgetState();
 }
 
-class _MyStatelessWidgetState extends State<MyStatelessWidget> {
+class _PageView_WidgetState extends State<PageView_Widget> {
   final PageController controller = PageController();
   @override
   Widget build(BuildContext context) {

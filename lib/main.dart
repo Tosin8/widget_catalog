@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'animation&motion/animated_widget.dart';
+import 'package:widget_catalog/animation&motion/decoratedBox_transition.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const animated_widget(),
+      home: const decorated_Box(),
     );
   }
 }

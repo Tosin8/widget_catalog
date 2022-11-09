@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'assets,images&icon/image.dart';
+import 'basic/appBar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const Image_Widget(),
+      home: const AppBarExample(),
     );
   }
 }

@@ -15,14 +15,16 @@ class _PageView_WidgetState extends State<PageView_Widget> {
   final PageController controller = PageController();
   @override
   Widget build(BuildContext context) {
-    return PageView(controller: controller, children: const [
-      Center(
-        child: Text('First Page'),
-      ),
-      Center(child: Text('Second Page')),
-      Center(
-        child: Text('Third Page'),
-      ),
-    ]);
+    return Scaffold(
+      body: PageView(controller: controller, children: const [
+        Center(
+          child: Text('First Page'),
+        ),
+        Center(child: Text('Second Page')),
+        Center(
+          child: Text('Third Page'),
+        ),
+      ]),
+    );
   }
 }

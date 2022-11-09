@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+
+// Scrollable - it handles arbitrary scrolling effects. 
+
 class ScrollingBar extends StatefulWidget {
   const ScrollingBar({super.key});
 

@@ -1,6 +1,8 @@
 // DISCLAIMER: A RefreshIndicator can only be used with a vetical scroll view.
 //1. RefreshIndicatorState -
 
+// Showing how RefreshIndicator can be triggered in different ways.
+
 import 'package:flutter/material.dart';
 
 class RefreshIndicatorExample extends StatefulWidget {

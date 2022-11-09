@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const RefreshIndicatorExample1(),
+      home: const RefreshIndicatorExample(),
     );
   }
 }

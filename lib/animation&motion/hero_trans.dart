@@ -122,14 +122,14 @@ class HeroExample1 extends StatelessWidget {
                 createRectTween: (Rect? begin, Rect? end) {
                   return MaterialRectCenterArcTween(begin: begin, end: end);
                 },
-                child: BoxWidget(
+                child: BoxWidget1(
                   size: const Size(400.0, 400.0),
                   color: Colors.blue[700]!.withOpacity(0.5),
                 ),
               ),
               Hero(
                 tag: 'hero-default-tween',
-                child: BoxWidget(
+                child: BoxWidget1(
                   size: const Size(400.0, 400.0),
                   color: Colors.red[700]!.withOpacity(0.5),
                 ),

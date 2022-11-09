@@ -8,32 +8,41 @@ class Icon_Widget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Padding(
-      padding: const EdgeInsets.symmetric(vertical: 10),
-      child: Container(
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(8),
-        ),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          children: const [
-            Icon(
-              Icons.favorite,
-              color: Colors.pink,
-              size: 24,
-              semanticLabel: 'Text to announce in accesiblity modes',
+        body: Center(
+      child: Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 50),
+        child: Card(
+          elevation: 5,
+          child: Container(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8),
+              color: Colors.blueGrey,
             ),
-            Icon(
-              Icons.audiotrack,
-              color: Colors.green,
-              size: 24,
+            child: Padding(
+              padding: const EdgeInsets.all(30),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: const [
+                  Icon(
+                    Icons.favorite,
+                    color: Colors.pink,
+                    size: 24,
+                    semanticLabel: 'Text to announce in accesiblity modes',
+                  ),
+                  Icon(
+                    Icons.audiotrack,
+                    color: Colors.green,
+                    size: 24,
+                  ),
+                  Icon(
+                    Icons.umbrella,
+                    color: Colors.blue,
+                    size: 24,
+                  ),
+                ],
+              ),
             ),
-            Icon(
-              Icons.umbrella,
-              color: Colors.blue,
-              size: 24,
-            ),
-          ],
+          ),
         ),
       ),
     ));

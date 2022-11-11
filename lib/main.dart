@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widget_catalog/animation&motion/decoratedBox_transition.dart';
+
+import 'painting&effect/clipRect.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const decorated_Box(),
+      home: const Clip_Widget(),
     );
   }
 }

@@ -19,7 +19,7 @@ class _BackDrop_FilterState extends State<BackDrop_Filter> {
         Center(
           child: ClipRect(
               child: BackdropFilter(
-                  filter: ui.ImageFilter.blur(
+                  filter: ImageFilter.blur(
                     sigmaX: 5.0,
                     sigmaY: 5.0,
                   ),

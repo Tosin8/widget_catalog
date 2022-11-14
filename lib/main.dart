@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:widget_catalog/codelab/mdc%20basic.dart';
+
+import 'codelab/shrine/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const LoginPage(),
+      home: const LoginPage_Shrine(),
     );
   }
 }

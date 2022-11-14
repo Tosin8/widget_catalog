@@ -4,14 +4,14 @@
 
 import 'package:flutter/material.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+class LoginPage_Shrine extends StatefulWidget {
+  const LoginPage_Shrine({super.key});
 
   @override
-  State<LoginPage> createState() => _LoginPageState();
+  State<LoginPage_Shrine> createState() => _LoginPage_ShrineState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _LoginPage_ShrineState extends State<LoginPage_Shrine> {
   // adding text editing controllers .
 
   final _usernameController = TextEditingController();

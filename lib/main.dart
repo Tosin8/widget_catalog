@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'painting&effect/clipRect.dart';
+import 'package:widget_catalog/codelab/mdc%20basic.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const Clip_Widget(),
+      home: const LoginPage(),
     );
   }
 }
